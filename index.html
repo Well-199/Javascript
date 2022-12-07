@@ -7,8 +7,25 @@
     <title>Javascript</title>
 </head>
 <body>
-    <h1>Hello Javascript!</h1>
+    <h1>Hi! Javascript.</h1>
+
+    <div class="formArea"></div>
 
     <script src="./script.js"></script>
+
+    <script>
+
+        let element = document.querySelector('.formArea')
+        element.style.border = '1px solid black'
+        element.style.width = '200px'
+        element.style.height = '200px'
+        element.style.display = 'flex'
+        element.style.flexDirection = 'column'
+        element.style.justifyContent = 'space-around'
+        element.style.textAlign = 'center'
+        console.log(element)
+
+    </script>
+
 </body>
 </html>

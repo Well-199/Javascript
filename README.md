@@ -1,5 +1,6 @@
 
 # JS Avançado B7Web)
 
-#### Classes: Instância
+#### Factory: Gerador de formularios
+#### Orientação a Objetos
 
